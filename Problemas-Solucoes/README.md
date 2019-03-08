@@ -14,9 +14,13 @@ obtemos o seguinte retorno:
 A media e: 2.000000
 ```
 O resultado está **errado**, pois a media entre 2 , 2 e 3 é 2,333333:
+
 ![Calculo da media](https://latex.codecogs.com/gif.latex?\frac{2&plus;2&plus;3}{3}&space;=&space;2,333333)
+
 Isso acontece devido a ambos os operandos da operação aritmética serem do mesmo tipo, logo o resultado terá o mesmo tipo que no caso é **int**, ou seja, é um numero que não possui casas decimais.
+
 Apesar da variável media ser do tipo **float**(real) e armazenar números fracionários, a operação passa para ela o resultado calculado como **int**(inteiro) e já **truncado**.
+
 *OBS:* O valor apresentado **não é arredondado** e sim **truncado**. Isso quer dizer que o programa elimina toda a parte fracionaria do numero sem arredondar. 
 - Ex: **2,89** 
   - Arredondado = **3**
